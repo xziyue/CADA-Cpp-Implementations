@@ -1,7 +1,7 @@
 project(Chessboard)
 set(CMAKE_CXX_STANDARD 11)
 
-set(BUILD_CHESSBOARD_TEST TRUE)
+#set(BUILD_CHESSBOARD_TEST TRUE)
 
 set(SOURCE_FILES Test.cpp)
 
