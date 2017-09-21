@@ -18,15 +18,17 @@
 #include <fstream>
 #include <chrono>
 #include <random>
+#include <array>
+#include <sstream>
+#include <iomanip>
+#include <cmath>
+#include <memory>
 
-using namespace std;
-
-#include "Core"
 
 inline void AlwaysAssert(bool expr, const char *info){
     if(!expr){
-        cerr<<info<<"\n";
-        throw runtime_error{info};
+        std::cerr<<info<<"\n";
+        throw std::runtime_error{info};
     }
 }
 
